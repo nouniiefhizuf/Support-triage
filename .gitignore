@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+data/supportdesk.sqlite-wal
+data/supportdesk.sqlite-shm
+data/supportdesk.sqlite
+data/Bitext_Sample_Customer_Support_Training_Dataset_27K_responses-v11.csv

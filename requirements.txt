@@ -1,0 +1,14 @@
+ Python 3.10 or newer is required.
+ This project has no third-party Python package dependencies.
+ Install with: python -m pip install -r requirements.txt
+
+# Python standard-library modules used by the app:
+ csv, datetime, email.message, http.server, json, mimetypes, os, pathlib,
+ re, smtplib, socket/ssl, sqlite3, sys, tempfile, threading, time,
+ urllib.error, urllib.parse, urllib.request, unittest, unittest.mock,
+ webbrowser, shutil
+
+# External runtime services (not pip packages):
+- Ollama local service with qwen3:1.7b
+ - Hugging Face dataset download on first launch
+ - Optional Gmail SMTP (smtp.gmail.com:465) for approved reply delivery
